@@ -12,6 +12,7 @@ tags:
 # toc_sticky: true
 date: 2023-06-27
 # last_modified_at: 2020-05-25
+comments: true
 ---
 
 1. vscode 확장 마켓플레이스에서 Mark All in One을 다운받고 리로드 해주세요!
