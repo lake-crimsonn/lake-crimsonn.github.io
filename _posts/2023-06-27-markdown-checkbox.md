@@ -4,12 +4,12 @@ excerpt: "빈칸을 띄웠는데, 체크박스 안생긴다면"
 
 # categories:
 #   - Blog
-tags:
-  - [마크다운, 체크박스]
 
+tags:
+  - [etc]
+  -
 # toc: true
 # toc_sticky: true
-
 date: 2023-06-27
 # last_modified_at: 2020-05-25
 ---

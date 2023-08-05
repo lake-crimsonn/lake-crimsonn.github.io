@@ -5,7 +5,7 @@ excerpt: "변환하는 기능은 꽁꽁 숨어있습니다."
 # categories:
 #   - Blog
 tags:
-  - [vscode, ipynb, html]
+  - [etc]
 
 # toc: true
 # toc_sticky: true
