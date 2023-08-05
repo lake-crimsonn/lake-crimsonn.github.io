@@ -30,33 +30,32 @@ masthead_title: "레이크의 코드 스터디" # overrides the website title di
 breadcrumbs: true # true, false (default)
 words_per_minute: 250 # 1분에 200단어
 comments:
-  provider: giscus # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
-  # disqus:
-  #   shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  # discourse:
-  #   server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  # facebook:
-  #   # https://developers.facebook.com/docs/plugins/comments
-  #   appid:
-  #   num_posts: # 5 (default)
-  #   colorscheme: # "light" (default), "dark"
-  # utterances:
-  #   theme: # "github-light" (default), "github-dark"
-  #   issue_term: # "pathname" (default)
+  provider: "giscus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  disqus:
+    shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid:
+    num_posts: # 5 (default)
+    colorscheme: # "light" (default), "dark"
+  utterances:
+    theme: # "github-light" (default), "github-dark"
+    issue_term: # "pathname" (default)
   giscus:
-    repo: "lake-crimsonn/lake-crimsonn.github.io"
     repo_id: "R_kgDOJzzFgg" # Shown during giscus setup at https://giscus.app
-    category_name: "General" # Full text name of the category
-    category_id: "DIC_kwDOJzzFgs4CYXir" # Shown during giscus setup at https://giscus.app
+    category_name: "Comments" # Full text name of the category
+    category_id: "DIC_kwDOJzzFgs4CYXt9" # Shown during giscus setup at https://giscus.app
     discussion_term: "pathname" # "pathname" (default), "url", "title", "og:title"
     reactions_enabled: "1" # '1' for enabled (default), '0' for disabled
     theme: "light" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
-#   staticman:
-#     branch: # "master"
-#     endpoint: # "https://{your Staticman v3 API}/v3/entry/github/"
-# reCaptcha:
-#   siteKey:
-#   secret:
+  staticman:
+    branch: # "master"
+    endpoint: # "https://{your Staticman v3 API}/v3/entry/github/"
+reCaptcha:
+  siteKey:
+  secret:
 atom_feed:
   path: # blank (default) uses feed.xml
   hide: # true, false (default)
