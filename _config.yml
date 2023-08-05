@@ -23,7 +23,7 @@ name: "lake-crimsonn"
 description: "An amazing website."
 url: "https://lake-crimsonn.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: "lake-crismsonn/lake-crismsonn.github.io"
+repository: "lake-crimsonn/lake-crimsonn.github.io"
 teaser: "/assets/images/teaser.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "/assets/images/face_with_monocle.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: "레이크의 코드 스터디" # overrides the website title displayed in the masthead, use " " for no title
@@ -32,7 +32,7 @@ words_per_minute: 250 # 1분에 200단어
 comments:
   provider: "giscus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname: lake-crimsonn-code-study # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -274,10 +274,10 @@ defaults:
       path: ""
       type: posts
     values:
+      comments: true
       layout: single
       show_date: true
       author_profile: true
       read_time: false
-      comments: true
       share: false
       related: true
