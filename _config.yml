@@ -30,7 +30,7 @@ masthead_title: "레이크의 코드 스터디" # overrides the website title di
 breadcrumbs: true # true, false (default)
 words_per_minute: 250 # 1분에 200단어
 comments:
-  provider: "giscus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider: giscus # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   # disqus:
   #   shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   # discourse:
