@@ -12,7 +12,7 @@
 
 # theme: "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "contrast" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "default" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "ko-KR"
@@ -22,12 +22,13 @@ subtitle: # site tagline that appears below site title in masthead
 name: "lake-crimsonn"
 description: "An amazing website."
 url: "https://lake-crimsonn.github.io"
-baseurl: # the subpath of your site, e.g. "/blog"
+baseurl: "/" # the subpath of your site, e.g. "/blog"
 repository: "lake-crimsonn/lake-crimsonn.github.io"
 teaser: "/assets/images/teaser.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "/assets/images/face_with_monocle.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: "레이크의 코드 스터디" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs: true # true, false (default)
+# date_format: "%Y-%m-%d, %H:%M"
 words_per_minute: 250 # 1분에 200단어
 comments:
   provider: "giscus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -214,7 +215,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
@@ -267,6 +268,21 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+  pets:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
 # Defaults
 defaults:
   # _posts
@@ -274,10 +290,15 @@ defaults:
       path: ""
       type: posts
     values:
-      comments: true
       layout: single
+      comments: true
       show_date: true
       author_profile: true
       read_time: false
       share: false
       related: true
+      classes: wide
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "categories"

@@ -7,7 +7,7 @@ excerpt: "변환하는 기능은 꽁꽁 숨어있습니다."
 tags:
   - [etc]
 
-# toc: true
+toc: false
 # toc_sticky: true
 
 date: 2023-06-28
