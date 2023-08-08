@@ -8,5 +8,15 @@ main:
     url: /portfolio/
 
 categories:
-  - title: "testpost"
+  - title: "ai"
     url: /categories/testpost/
+  - title: "python"
+    url: /categories/testpost/
+  - title: "javascript"
+    url: /categories/testpost/
+  - title: "react"
+    url: /categories/testpost/
+  # - title: "react"
+  #     children:
+  #       - title: "차일드"
+  #         url: /categories/testpost/
