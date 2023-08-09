@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name: "Lake Crimsonn"
-  avatar: assets\images\henry.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: /assets/images/henry.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "저는 **어메이징**한 사람입니다."
   location: "somewhere in metaverse"
   email: #lakecrimsonn@gmail.com
