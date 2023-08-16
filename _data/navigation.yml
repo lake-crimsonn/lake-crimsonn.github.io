@@ -2,16 +2,12 @@
 main:
   - title: "about"
     url: /about/
-  - title: "tags"
-    url: /tags/
-  - title: "portfolio"
-    url: /portfolio/
 
 categories:
   - title: "deep learning"
-    url: /categories/testpost/
-  - title: "python"
-    url: /categories/testpost/
+    url: /categories/deeplearning/
+  - title: "python skills"
+    url: /categories/python-skills/
   - title: "javascript"
     url: /categories/testpost/
   - title: "react"

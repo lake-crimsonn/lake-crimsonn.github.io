@@ -1,5 +1,5 @@
 ---
-title: "OpenCV로 문서 반듯하게 펴기"
+title: "OpenCV로 카드 반듯하게 펴기"
 excerpt: "다리미가 아닙니다. OpenCV입니다."
 
 date: 2023-08-12 09:38:00 +0900
@@ -27,8 +27,8 @@ toc_icon: "bars" # 아이콘 설정
 ---
 
 <figure align="center">
-<a href="https://ibb.co/f8dyKSY"><img src="https://i.ibb.co/ZHzFwJ6/business-card-640.jpg" alt="business-card-640" border="0" width="50%" height="50%"></a>
-<a href="https://ibb.co/cr8PDxt"><img src="https://i.ibb.co/G5MXcFk/card-fixed.png" alt="card-fixed" border="0" width="47%" height="50%"></a>
+<a href="https://ibb.co/f8dyKSY"><img src="https://i.ibb.co/ZHzFwJ6/business-card-640.jpg" alt="business-card-640" border="0" width="10%" height="30%"></a>
+<a href="https://ibb.co/cr8PDxt"><img src="https://i.ibb.co/G5MXcFk/card-fixed.png" alt="card-fixed" border="0" width="10%" height="30%"></a>
 <figcaption align="center">화질은 떨어집니다</figcaption>
 </figure>
 

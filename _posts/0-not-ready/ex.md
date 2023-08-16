@@ -8,8 +8,8 @@ last_modified_at: 2022-02-06
 author_profile: true # 왼쪽부분 프로필을 띄울건지
 
 header:
-overlay_image: https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
-overlay_filter: 0.5 # 투명도
+  overlay_image: https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
+  overlay_filter: 0.5 # 투명도
 
 # teaser: /assets/images/my-awesome-post-teaser.jpg
 
@@ -26,8 +26,11 @@ toc_label: "table of content" # toc 이름 설정
 toc_icon: "bars" # 아이콘 설정
 ---
 
-<a href="https://ibb.co/f8dyKSY"><img src="https://i.ibb.co/ZHzFwJ6/business-card-640.jpg" alt="business-card-640" border="0"></a>
-<img src="" width="50%" height="50%">
+<figure align="center">
+<a href="https://ibb.co/f8dyKSY"><img src="https://i.ibb.co/ZHzFwJ6/business-card-640.jpg" alt="business-card-640" border="0" width="10%" height="30%"></a>
+<a href="https://ibb.co/cr8PDxt"><img src="https://i.ibb.co/G5MXcFk/card-fixed.png" alt="card-fixed" border="0" width="10%" height="30%"></a>
+<figcaption align="center">화질은 떨어집니다</figcaption>
+</figure>
 
 [이미지 정렬](https://0soo.tistory.com/227)
 
