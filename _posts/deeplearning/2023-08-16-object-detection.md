@@ -8,7 +8,7 @@ date: 2023-08-16 10:27:00 +0900
 author_profile: false # 왼쪽부분 프로필을 띄울건지
 
 header:
-overlay_image: https://images.velog.io/images/tataki26/post/0c67f497-de85-4751-9654-1485d71e083c/detection.png
+overlay_image: https://learn.g2.com/hubfs/G2CM_FI264_Learn_Article_Images_%5BObject_detection%5D_V1a.png
 overlay_filter: 0.5 # 투명도
 
 # teaser: /assets/images/my-awesome-post-teaser.jpg

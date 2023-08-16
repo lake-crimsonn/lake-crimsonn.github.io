@@ -26,6 +26,11 @@ toc_label: "table of content" # toc 이름 설정
 toc_icon: "bars" # 아이콘 설정
 ---
 
+<a href="https://ibb.co/f8dyKSY"><img src="https://i.ibb.co/ZHzFwJ6/business-card-640.jpg" alt="business-card-640" border="0"></a>
+<img src="" width="50%" height="50%">
+
+[이미지 정렬](https://0soo.tistory.com/227)
+
 # 1
 
 asd

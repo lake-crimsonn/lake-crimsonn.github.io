@@ -14,7 +14,7 @@ header:
 # teaser: /assets/images/my-awesome-post-teaser.jpg
 
 categories:
-  - python
+  - python-skills
 
 # tags: - test - theme
 
@@ -26,7 +26,11 @@ toc_label: "table of content" # toc 이름 설정
 toc_icon: "bars" # 아이콘 설정
 ---
 
-<img src="../../_data/images/business-card_640.jpg" width="50%" height="50%">
+<figure align="center">
+<a href="https://ibb.co/f8dyKSY"><img src="https://i.ibb.co/ZHzFwJ6/business-card-640.jpg" alt="business-card-640" border="0" width="50%" height="50%"></a>
+<a href="https://ibb.co/cr8PDxt"><img src="https://i.ibb.co/G5MXcFk/card-fixed.png" alt="card-fixed" border="0" width="47%" height="50%"></a>
+<figcaption align="center">화질은 떨어집니다</figcaption>
+</figure>
 
 ```python
 import cv2
