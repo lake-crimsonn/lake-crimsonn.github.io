@@ -1,6 +1,6 @@
 ---
 title: "OpenCV로 문서 반듯하게 펴기"
-excerpt: ""
+excerpt: "다리미가 아닙니다. OpenCV입니다."
 
 date: 2023-08-12 09:38:00 +0900
 # last_modified_at: 2022-02-06
@@ -33,7 +33,7 @@ import cv2
 import numpy as np
 # from google.colab.patches import cv2_imshow  # 코랩에서 돌리는 경우
 
-src = cv2.imread('_data\images\\business-card_640.jpg')
+src = cv2.imread('_data/images/business-card_640.jpg')
 print('카드 사이즈:', src.shape)
 
 # 카드 사이즈 변환해주기

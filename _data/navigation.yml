@@ -8,7 +8,7 @@ main:
     url: /portfolio/
 
 categories:
-  - title: "ai"
+  - title: "deep learning"
     url: /categories/testpost/
   - title: "python"
     url: /categories/testpost/
